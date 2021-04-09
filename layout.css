@@ -9,6 +9,7 @@ body {
   max-width: 1875px;
   margin: auto;
   padding: 0px 25px;
+
 }
 
 img{
@@ -37,6 +38,7 @@ nav{
 nav ul{
   display: inline-block;
   list-style-type: none;
+  padding: 0;
 }
 
 nav ul li{
@@ -534,7 +536,8 @@ td img{
   position: relative;
   text-align: center;
   padding: 20px 0px;
-  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
   shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
   overflow: hidden;
   border-radius: 5px;
@@ -767,6 +770,7 @@ form .btn:focus{
     }
 
     .contact{
+      margin-top: 120px;
       flex-direction: column;
     }
 }
