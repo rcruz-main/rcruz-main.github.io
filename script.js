@@ -28,12 +28,3 @@ var Indicator = document.getElementById("Indicator")
   }
 
 //this section is for the cart page
-var removeCartItemsButtons = document.getElementsByClassName('btn-danger')
-console.log(removeCartItemsButtons)
-
-for (var i = 0; i < removeCartItemsButtons.lenght; i++){
-  var button = removeCartItemsButtons[i]
-  button.addEventListener('click', function(){
-    console.log(clicked)
-  })
-}
