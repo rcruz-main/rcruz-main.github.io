@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Always Games | My Account</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="layout.css" style="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css"></style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <div class="topnav">
+      <div class="logo">
+        <a href="Index.html"><img src="images/logo.png" width="125" height="auto"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="Contacts.html">Contact Us</a></li>
+          <li><a href="Account.html">My Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="images/Cart.png" width="30" height="30"></a>
+      <img src="images/menu.png" width="30" height="30" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    <div class="rowdivider">
+      <h10>&InvisibleTimes;</h10>
+    </div>
+
+    <div class="account-page">
+      <div class="row-account">
+        <div class="col-2-2-2">
+          <h2>Unlimited play at you fingertips.</h2>
+          <h4>Register now and start earning points for every purchase.</h4>
+        </div>
+        <div class="col-2-2">
+          <div class="form-container">
+            <div class="form-btn">
+              <span onclick="login()">Login</span>
+              <span onclick="register()">Register</span>
+              <hr id="Indicator"></hr>
+            </div>
+            <form id="LoginForm">
+              <input type="text" placeholder="Username">
+              <input type="password" placeholder="Password">
+              <button type="submit" class="btn">Login</button>
+              <a href="">Forgot Password</a>
+            </form>
+            <form id="RegForm">
+              <input type="text" placeholder="Username">
+              <input type="password" placeholder="Password">
+              <input type="email" placeholder="e-mail">
+              <button type="submit" class="btn">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="rowdivider">
+      <h10>&InvisibleTimes;</h10>
+    </div>
+
+    <!--brands-->
+    <div class="row6">
+      <div class="col-5">
+        <img src="images/logo-ps.png" width="auto" height="auto">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-xsx.png" width="auto" height="auto">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-nswitch.jpeg" width="auto" height="auto">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-capcom.jpg" width="auto" height="auto">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-pc.png" width="auto" height="auto">
+      </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+      <div class="row">
+        <div class="footer-col1">
+          <h2>Download our app</h2>
+          <center><img src="images/app.png" width="125" height="auto"></center>
+        </div>
+        <div class="footer-col2">
+          <ul>
+            <li><a href="#" class="fa fa-facebook"></a>facebook.com/alwaysgames489</li>
+            <li><a href="#" class="fa fa-twitter"></a>twitter.com/alwaysgames489</li>
+            <li><a href="#" class="fa fa-google"></a>alwaysgames489@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer-col3">
+          <h2>Customer Service</h2>
+          <ul>
+            <li>Return/Exchange</li>
+            <li>Order Cancellation</li>
+            <li>Store Location</li>
+            <li>Contact </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="rowdivider">
+      <h10>&InvisibleTimes;</h10>
+    </div>
+
+    <div class="rowdivider2">
+      <h10>&InvisibleTimes;</h10>
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
